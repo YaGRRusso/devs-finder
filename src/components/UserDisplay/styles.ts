@@ -60,9 +60,15 @@ export const PersonalNumbers = styled.div`
     align-items: center;
     justify-content: space-between;
     font-size: .9rem;
+    min-width: 300px;
+
     span{
         font-weight: bold;
         color: ${props => props.theme.primaryColor};
+    }
+
+    @media (max-width: 425px) {
+        min-width: 260px;
     }
 `
 
@@ -94,8 +100,6 @@ export const PersonalBottom = styled.ul`
     @media (max-width: 700px) {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 `
 
