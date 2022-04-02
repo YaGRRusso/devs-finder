@@ -58,13 +58,8 @@ export const PersonalTop = styled.div`
 export const PersonalNumbers = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: .9rem;
-
-    div{
-        margin-right: 10px;
-    }
-
     span{
         font-weight: bold;
         color: ${props => props.theme.primaryColor};
