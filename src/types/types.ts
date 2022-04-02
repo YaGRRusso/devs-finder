@@ -6,17 +6,18 @@ export type UserType = {
     name: string,
     location: string,
     blog: string,
-    email: string,
+    email: string | null,
     bio: string,
     public_repos: number,
-    followers: string,
-    following: string
-    updated_at: Date,
+    followers: number,
+    following: number
+    updated_at: string,
 }
 
 export type ReposType = {
     name: string,
     private: boolean,
     html_url: string,
-    language: string
+    language: string,
+    description: string | null
 }
