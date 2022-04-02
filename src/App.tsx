@@ -56,7 +56,7 @@ export default function App() {
         <C.Header>
           <img src={GithubImg} alt="github logo" />
           <div>
-            <h1>Devs Search</h1>
+            <h1>Devs Finder</h1>
             <ThemeSwitcher darkTheme={darkMode} onClick={setLocalStorageTheme} />
           </div>
         </C.Header>

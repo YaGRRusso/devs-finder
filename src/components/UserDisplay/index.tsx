@@ -33,7 +33,7 @@ export default ({ data }: Props) => {
                     </C.PersonalTop>
                     <C.PersonalBottom>
                         <li><img src={GeoImg} alt="location" />{data.user.location ?? '---'}</li>
-                        <a href={`https://${data.user.blog}`} target="_blank"><li><img src={SiteImg} alt="website" />{data.user.blog ?? '---'}</li></a>
+                        <a href={data.user.blog} target="_blank"><li><img src={SiteImg} alt="website" />{data.user.blog ?? '---'}</li></a>
                         <a href={`mailto:${data.user.email}`} target="_blank"><li><img src={EmailImg} alt="email" />{data.user.email ?? '---'}</li></a>
                     </C.PersonalBottom>
                 </C.Personal>
