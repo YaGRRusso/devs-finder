@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding: 10px;
-    background-color: #ffffff05;
+    background-color: ${props => props.theme.superColor + '08'};
     border-radius: 3px;
 
     div{
