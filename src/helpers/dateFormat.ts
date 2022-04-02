@@ -11,5 +11,5 @@ export const fullDate = (date: string) => {
     const day = newDate.getDate();
     const month = newDate.getMonth();
     const year = newDate.getFullYear();
-    return `${formatDate(day)}/${formatDate(month)}/${year}`
+    return `${formatDate(day)}/${formatDate(month + 1)}/${year}`
 }
